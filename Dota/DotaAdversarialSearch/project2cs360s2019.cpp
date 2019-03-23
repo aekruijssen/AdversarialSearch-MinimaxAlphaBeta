@@ -301,7 +301,7 @@ int main()
 	int answer = 0;
 
 	//algo = "minimax";
-	algo = "ab";
+	//algo = "ab";
 
 	if (algo == "minimax") {
 		answer = minimaxDecision(startState, "minimax");
