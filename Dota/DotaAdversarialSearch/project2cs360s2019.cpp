@@ -262,8 +262,8 @@ struct lessThan
 
 int main()
 {
-	std::ifstream inFile("test_case/input6.txt", std::ifstream::in);
-	//std::ifstream inFile("input.txt", std::ifstream::in);
+	//std::ifstream inFile("test_case/input6.txt", std::ifstream::in);
+	std::ifstream inFile("input.txt", std::ifstream::in);
 
 	std::string line;
 	int numHeroes;
